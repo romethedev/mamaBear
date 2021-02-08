@@ -1,0 +1,1662 @@
+.global-maincontent,
+.article.article-body,
+.article-content {
+    margin: 0;
+    padding: 0;
+}
+
+#globalQuickLaunchMenu,
+.global-breadcrumbs-wrapper.ms-dialogHidden,
+.global-footer-wrapper.ms-dialogHidden {
+    display: none;
+}
+
+.ms-rtestate-field > p {
+        display: none;
+}
+
+.global-breadcrumbs-current {
+    display: none;
+    margin: 0;
+}
+
+.ms-webpartzone-cell {
+    margin: 0;
+}
+
+#s4-bodyContainer {
+    overflow: hidden;
+}
+
+#s4-bodyContainer:after {
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
+
+.global-body-wrapper {
+    width: 100%;
+}
+
+
+@font-face {
+    font-family: 'Muller';
+    src: url(/sites/Intranet/repo/pageFiles/fonts/Muller.ttf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MullerBold';
+    src: url(/sites/Intranet/repo/pageFiles/fonts/MullerBold.ttf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MullerExtraBold';
+    src: url(/sites/Intranet/repo/pageFiles/fonts/MullerExtraBold.otf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MullerMedium';
+    src: url(/sites/Intranet/repo/pageFiles/fonts/MullerMedium.otf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MullerLight';
+    src: url(/sites/Intranet/repo/pageFiles/fonts/MullerLight.otf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MullerThin';
+    src: url(/sites/Intranet/repo/pageFiles/fonts/MullerThin.otf);
+    font-style: normal;
+}
+
+#mainHolder {
+
+    #mamaBear {
+        overflow: hidden;
+
+        .wrap {
+            margin-left: 140px;
+            margin-right: 140px;
+        }
+
+        .clearfix {
+            &:before {
+                content: "";
+                display: table;
+            }
+        }
+
+
+        //Header & Menu CSS
+        .site-header {
+            padding: 2em 0 1.5em;
+
+            .wrap {
+                .site-brand {
+                    width: 225px;
+                }
+
+                .nav-item {
+                    color: #707070;
+                    float: right;
+                    margin-top: 20px;
+                    padding-right: 8%;
+                    font-size: 1.15vw;
+                    font-family: 'MullerMedium';
+                    text-transform: uppercase;
+                    position: relative;
+                    display: block;
+                    cursor: pointer;
+                    transition: 1s;
+
+                    &:hover {
+                        color: #AB40FA;
+                    }
+                }
+
+                .nav-toggle {
+                    padding-right: 40px;
+
+                    span {
+                        background: #bdbdbd;
+                        display: block;
+                        height: 4px;
+                        position: absolute;
+                        right: 0;
+                        width: 30px;
+                        transform: rotate(0deg);
+                        transition: .25s ease-in-out;
+
+                        &:first-child {
+                            top: 2px;
+                        }
+                        &:nth-child(2) {
+                            top: 10px;
+                        }
+                        &:nth-child(3) {
+                            top: 18px;
+                        }
+                    }
+                }
+
+                .no-bullets {
+                    li, ol, ul {
+                        list-style: none;
+                        padding: 0;
+                        margin: 0;
+                    }
+                }
+
+                .site-navigation {
+                    width: 100%;
+                    position: absolute;
+                    left: 0;
+
+                    #nav-menu {
+                        background-color: #707070;
+                        .menu-item {
+                            display: inline;
+                        }
+                    }
+                }
+            }
+        }
+        //Header & Menu CSS
+
+        .navbar-expand-lg {
+            background-color: #fff;
+            height: 125px;
+
+            .navbar-brand {
+                color: #747474;
+                font-family: 'Muller';
+                margin: 5px 0 0 62px;
+                font-weight: 500;
+                font-size: 17px;
+                line-height: 28px;
+
+                img {
+                    width: 325px;
+                    position: absolute;
+                    top: 12%;
+                    left: 8%;
+                }
+            }
+
+            .navbar-nav {
+                opacity: 1;
+                width: 40%;
+                right: 0;
+                transition: all .5s ease-in;
+                position: absolute;
+
+                .nav-link {
+                    font-family: 'MullerMedium';
+                    font-size: 1.15vw;
+                    font-weight: 500;
+                    color: #707070;
+                    margin-right: 12%;
+                    cursor: pointer;
+                }
+
+                #mentor-link {
+                    -o-transition: 1s;
+                    -ms-transition: 1s;
+                    -moz-transition: 1s;
+                    -webkit-transition: 1s;
+                    /* ...and now for the proper property */
+                    transition: 1s;
+                    
+                    &:hover{
+                        color: #AB40FA;
+                    }
+                }
+
+                #resource-link {
+                    -o-transition: 1s;
+                    -ms-transition: 1s;
+                    -moz-transition: 1s;
+                    -webkit-transition: 1s;
+                    /* ...and now for the proper property */
+                    transition: 1s;
+                    
+                    &:hover{
+                        color: #AB40FA;
+                    }
+                }
+
+                #contact-link {
+                    -o-transition: 1s;
+                    -ms-transition: 1s;
+                    -moz-transition: 1s;
+                    -webkit-transition: 1s;
+                    /* ...and now for the proper property */
+                    transition: 1s;
+                    width: 50%;
+
+                    .fa {
+                        margin-right: 8px;
+                    }
+                    
+                    &:hover{
+                        color: #AB40FA;
+                    }
+                }
+            }
+
+        }
+
+        .mobile-join-button {
+            display: none;
+        }
+
+        #mamaBear-banner {
+            height: 600px;
+            background-image: url('/sites/Intranet/repo/pageFiles/images/MamaBear/mama-banner.jpg');
+            background-size: cover;
+            position: relative;
+            background-position: 0 -60px;
+            background-repeat: no-repeat;
+
+            h1 {
+                color: white;
+                position: absolute;
+                z-index: 105;
+                width: 33%;
+                top: 32%;
+                left: 6%;
+                font-size: 35px;
+                font-family: 'Muller';
+                font-weight: 700;
+            }
+
+            button.join-button {
+                position: absolute;
+                z-index: 105;
+                width: 16%;
+                border-radius: 9px;
+                padding: 15px 0px;
+                color: #AB40FA;
+                font-family: 'Muller';
+                font-weight: 700;
+                font-size: 25px;
+                background-color: white;
+                border: 2px solid #AB40FA;
+                top: 62%;
+                left: 6%;
+                cursor: pointer;
+
+                &:hover {
+                    color: white;
+                }
+            }
+
+            #banner-overlay {
+                background-color: #6C07B7;
+                position: absolute;
+                z-index: 100;
+                height: 100%;
+                width: 100%;
+                opacity: .45;
+                top: 0;
+            }
+        }
+
+        #wrapper {
+            #overview {
+                padding: 150px 150px;
+
+                .col-sm-7 {
+                    h2 {
+                        color: #6C07B7;
+                        font-family: 'Muller';
+                        font-weight: 700;
+                        font-size: 35px;
+                    }
+    
+                    p.program-description {
+                        margin: 4% 0 8% 0;
+                        // padding-left: 2%;
+                        width: 77%;
+                        font-family: 'MullerLight';
+                        font-style: italic;
+                        font-size: 22px;
+                        color: #707070;
+                    }
+    
+                    h3 {
+                        color: #6C07B7;
+                        font-family: 'MullerMedium';
+                        font-size: 28px;
+                    }
+    
+                    p {
+                        margin-top: 3%;
+                        font-size: 24px;
+                        width: 77%;
+                        font-family: 'Muller';
+                        color: #707070;
+                    }
+    
+                    ul {
+                        list-style-type: none;
+                        padding: 0;
+                        margin-top: 5%;
+    
+                        li {
+                            font-family: 'MullerLight';
+                            color: #707070;
+                            font-size: 24px;
+    
+                            span {
+                                font-family: 'MullerBold';
+                                color: #707070;
+                            }
+                        }
+                    }
+                }
+
+                .col-sm-5 {
+                    img {
+                        width: 88%;
+                    }
+
+                    button.join-button {
+                        border: 0;
+                        background-color: #0095D3;
+                        color: white;
+                        font-family: 'MullerMedium';
+                        width: 70%;
+                        margin: 7% 0 0 9%;
+                        border-radius: 9px;
+                        padding: 40px;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            #phases {
+                padding: 0 0 150px 150px;
+
+                .col-sm-4 {
+                    position: relative;
+
+                    h2.phase-header {
+                        color: #6C07B7;
+                        font-family: 'Muller';
+                        font-weight: 700;
+                        position: initial;
+                        font-size: 32px;
+                        margin: 0 0 2.5% 26%;
+                    }
+
+                    #planning-block, #maternity-block, #return-block {
+                        position: relative;
+                        width: 75%;
+
+                        &:hover{
+                            h2 {
+                                opacity: 1;
+                            }
+
+                            hr {
+                                opacity: 1;
+                            }
+
+                            p {
+                                opacity: 1;
+                            }
+
+                            .overlay {
+                                opacity: .75;
+                            }
+                        }
+    
+                        h2 {
+                            position: absolute;
+                            font-size: 32px;
+                            top: 0;
+                            color: white;
+                            font-family: 'MullerMedium';
+                            top: 6%;
+                            left: 30%;
+                            z-index: 100;
+                            opacity: 0;
+                                -webkit-transition: 1.25s;
+                                -o-transition: 1.25s;
+                                -moz-transition: 1.25s;
+                            transition: 1.25s;
+                        }
+    
+                        hr {
+                            top: 15%;
+                            left: 27%;
+                            width: 45%;
+                            position: absolute;
+                            border: 1px solid white;
+                            opacity: 0;
+                            z-index: 100;
+                                -webkit-transition: 1.25s;
+                                -o-transition: 1.25s;
+                                -moz-transition: 1.25s;
+                            transition: 1.25s;
+                        }
+    
+                        p {
+                            top: 26%;
+                            left: 10%;
+                            font-size: 1vw;
+                            text-align: center;
+                            font-family: 'MullerMedium';
+                            color: white;
+                            position: absolute;
+                            width: 80%;
+                            opacity: 0;
+                            z-index: 100;
+                                -webkit-transition: 1.25s;
+                                -o-transition: 1.25s;
+                                -moz-transition: 1.25s;
+                            transition: 1.25s;
+                        }
+    
+                        .overlay {
+                            position: absolute;
+                            background-color: #6C07B7;
+                            height: 100%;
+                            width: 100%;
+                            top: 0;
+                            opacity: 0;
+                                -webkit-transition: 1.25s;
+                                -o-transition: 1.25s;
+                                -moz-transition: 1.25s;
+                            transition: 1.25s;
+                        }
+                    }
+
+                    #maternity-block {
+                        h2 {
+                            left: 20%;
+                        }
+                    }
+
+                    #return-block {
+                        h2 {
+                            left: 16%;
+                        }
+                    }
+
+                    img {
+                        width: 100%;
+                        height: 38vh;
+                    }
+                }
+
+                
+            }
+
+            #mentor {
+                padding: 100px 0 100px 150px;
+                background-color: rgba(172, 64, 250, 0.089);
+
+                .col-sm-6 {
+                    h2 {
+                        font-size: 35px;
+                        color: #6C07B7;
+                        font-family: 'Muller';
+                        font-weight: 700;
+                    }
+
+                    p {
+                        color: #707070;
+                        font-family: 'Muller';
+                        font-size: 24px;
+                        width: 79%;
+                        margin-top: 4%;
+                    }
+
+                    ul {
+                        margin-top: 4%;
+                        padding-left: 3%;
+
+                        li {
+                            color: #707070;
+                            font-family: 'Muller';
+                            font-size: 24px;
+                        }
+                    }
+
+                    a {
+                        display: inline-block;
+                        
+                        h4 {
+                            margin-top: 8%;
+                            font-size: 24px;
+                            font-family: 'Muller';
+                            color: #0095D3;
+                        } 
+                    }
+
+                    img {
+                        width: 75%;
+                    }
+                    
+                }
+            }
+
+            #resources {
+                padding: 100px 100px 50px 100px;
+
+                h2 {
+                    font-size: 35px;
+                    color: #6C07B7;
+                    font-family: 'Muller';
+                    font-weight: 700;
+                    margin-bottom: 75px;
+                }
+
+                .site-link {
+                    margin-bottom: 9%;
+
+                    h4 {
+                        color: #707070;
+                        font-family: 'Muller';
+                        font-weight: 600;
+                        font-size: 21px;
+                    }
+
+                    p {
+                        font-size: 21px;
+                        color: #707070;
+                        font-family: 'Muller';
+                    }
+
+                    hr {
+                        border: 2px solid #AB40FA;
+                        margin: 77px 0 2% 0;
+                        width: 250px;
+                    }
+
+                    a {
+                        color: #707070;
+                        text-decoration: none;
+                        margin-right: 20px;
+                        font-family: 'Muller';
+                        font-weight: 700;
+                        -webkit-transition: 1s;
+                        transition: 1s;
+
+                        &:hover {
+                            color: #AB40FA;
+                        }
+                    }
+                }
+            }
+
+            hr.section-line {
+                margin: 0 auto;
+                border: 15px solid;
+                width: 90%;
+                color: #AB40FA;
+                opacity: .1;
+            }
+
+            #contact {
+                padding: 50px 0 100px 150px;
+
+                .col-sm-6 {
+                    h2 {
+                        font-family: 'Muller';
+                        font-weight: 700;
+                        color: #AB40FA;
+                        font-size: 35px;
+                        margin-bottom: 1%;
+                    }
+                    
+                    h3 {
+                        font-size: 22px;
+                        font-family: 'Muller';
+                        margin-bottom: 7%;
+                        color: #707070;
+                    }
+
+                    ul {
+                        list-style-type: none;
+                        padding-left: 0;
+                        margin-bottom: 12%;
+
+                        li {
+                            font-family: 'Muller';
+                            color: #707070;
+                            font-size: 21px;
+                            margin-bottom: 3%;
+
+                            a {
+                                color: #0095D3;
+                            }
+                        }
+
+                        li.region {
+                            font-family: 'Muller';
+                            font-weight: 600;
+                        }
+                    }
+
+                    img {
+                        width: 75%;
+                    }
+
+                    h4 {
+                        font-size: 24px;
+                        font-family: 'MullerLight';
+                        font-weight: 600;
+                        margin-top: 3%;
+                        width: 78%;
+                        color: #707070;
+
+                        a {
+                            color: #0095D3;
+                        }
+                    }
+                }
+            }
+        }
+
+        #footer-sitemap {
+            background-color: #e4e4e4;
+            height: auto;
+            padding: 40px;
+            position: relative;
+
+            img {
+                position: absolute;
+                width: 285px;
+                top: 15%;
+                opacity: .35;
+            }
+
+            #footer-sitemap-content {
+                margin: 0 0 0 22%;
+                width: 78%;
+                height: 400px;
+    
+                .sitemap-column {
+                    box-sizing: border-box;
+                    position: relative;
+                    margin: 0;
+                    padding: 0;
+                    float: left;
+                    width: 22%;
+                    margin-right: 2%;
+                    
+                    h5 {
+                        font-size: 14px;
+                        font-weight: bolder;
+                        margin-bottom: .8em;
+                        color: #575757;
+                        font-family: 'MullerBold';
+
+                        a {
+                            color: #575757;
+                            text-decoration: none;
+
+                            // &:hover {
+                            //     color: #F8971D;
+                            // }
+                        }
+                    }
+    
+                    ul {
+                        list-style-type: none;
+                        padding: 0;
+                        font-size: 11px;
+                        font-family: 'MullerMedium';
+
+                        li.current {
+                            font-family: 'MullerExtraBold';
+                            // font-size: 12px;
+                            color: #000000;
+
+                            a {
+                                color: #000000;
+                            }
+                        }
+    
+                        li {
+                            margin-bottom: 1em;
+
+                            a {
+                                color: #777777;
+                                text-decoration: none;
+    
+                                &:hover {
+                                    color: #AB40FA;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+
+        #mobile-sitemap {
+            display: none;
+        }
+    }
+}
+
+/* Sweep To Right */
+.hvr-sweep-to-right {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+  }
+  .hvr-sweep-to-right:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #0095D3;
+    border-radius: 6px;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
+    color: white;
+  }
+  .hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+  /* Shrink */
+.hvr-shrink {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .hvr-shrink:hover, .hvr-shrink:focus, .hvr-shrink:active {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+
+//Styles for Small-Large Mobile Devices
+@media (max-width: 479px) {
+    .quicklaunch-toggle {
+        display: none;
+    }
+
+    #mainHolder {
+        #mamaBear {
+            .navbar-expand-lg {
+                height: 90px;
+
+                .navbar-brand {
+                    img {
+                        width: 215px;
+                        top: 12%;
+                        left: 21%;
+                    }
+                }
+            }
+
+            a {
+                text-decoration: none;
+
+                .mobile-join-button {
+                    display: block;
+                    width: 100%;
+                    border: 0;
+                    height: 62px;
+                    font-size: 17px;
+                    color: white;
+                    top: 100%;
+                    background-color: #0095d3;
+                    border-radius: 0;
+                    font-family: 'Muller';
+                    font-weight: 700;
+                    cursor: pointer;
+                }
+            }
+
+            #mamaBear-banner {
+                height: 155px;
+                background-size: cover;
+                background-position: 0;
+
+                h1 {
+                    display: none;
+                }
+
+                a {
+                    display: none;
+                }
+
+                #banner-overlay {
+                    display: none;
+                }
+            }
+
+            #wrapper {
+                #overview {
+                    padding: 40px 25px;
+
+                    .col-sm-7 {
+                        h2 {
+                            font-size: 25px;
+                            color: #AB40FA;
+                        }
+
+                        p.program-description {
+                            margin: initial;
+                            padding-left: 0;
+                            font-family: 'Muller';
+                            width: 100%;
+                            font-size: 15px;
+                        }
+
+                        h3 {
+                            font-size: 18px;
+                            margin-top: 6%;
+                        }
+
+                        p {
+                            margin-top: 3%;
+                            font-size: 15px;
+                            width: 100%;
+                            font-family: 'Muller';
+                        }
+
+                        ul {
+                            li {
+                                font-size: 15px;
+
+                                span {
+                                    color: #AB40FA;
+                                }
+                            }
+                        }
+                    }
+
+                    .col-sm-5 {
+                        img {
+                            display: none;
+                        }
+
+                        a {
+                            button.join-button {
+                                width: 90%;
+                                margin: 3% 0 0 5%;
+                                padding: 21px;
+                            }
+                        }
+                    }
+                }
+
+                #phases {
+                    display: none;
+                }
+
+                #mentor {
+                    padding: 25px 40px;
+
+                    .col-sm-6 {
+                        h2 {
+                            font-size: 19px;
+                            color: #AB40FA;
+                            font-family: 'MullerMedium';
+                            font-weight: 700;
+                            text-align: center;
+                        }
+
+                        p {
+                            font-size: 12px;
+                            width: 100%;
+                            margin-top: 4%;
+                            font-family: 'Muller';
+                        }
+
+                        ul {
+                            padding-left: 6%;
+
+                            li {
+                                font-size: 12px;
+                                font-family: 'Muller';
+                            }
+                        }
+
+                        a {
+                            display: none;
+                        }
+
+                        img {
+                            display: none;
+                        }
+                    }
+                }
+
+                #resources {
+                    padding: 35px 30px;
+
+                    h2 {
+                        font-size: 25px;
+                        color: #AB40FA;
+                        margin-bottom: 25px;
+                        text-align: center;
+                    }
+
+                    .site-link {
+                        margin-bottom: 12%;
+
+                        h4 {
+                            font-size: 18px;
+                        }
+
+                        p {
+                            font-size: 15px;
+                        }
+
+                        hr {
+                            margin: 50px 0 2% 0;
+                        }
+
+                        a {
+                            font-size: 14px;
+                        }
+                    }
+
+                }
+
+                hr.section-line {
+                    display: none;
+                }
+
+                #contact {
+                    padding: 20px 40px 40px 40px;
+
+                    .col-sm-6 {
+                        h2 {
+                            font-size: 19px;
+                            text-align: center;
+                            font-family: 'MullerMedium';
+                            font-weight: 700;
+                        }
+
+                        .row {
+                            .col-sm-6 {
+                                width: 51%;
+
+                                ul {
+                                    li {
+                                        font-size: 15px;
+                                    }
+                                }
+                            }
+
+                            .col-sm-6:nth-of-type(even) {
+                                width: 49%;
+                            }
+                        }
+
+                        h4 {
+                            font-size: 16px;
+                            width: 100%;
+                        }
+
+                        img {
+                            display: none;
+                        }
+                    }
+                }
+            }
+
+            #footer-sitemap {
+                display: none;
+            }
+
+            #mobile-sitemap {
+                display: block;
+                top: 0;
+                width: 100%;
+                height: auto;
+                margin: 0;
+                padding: 0;
+                background:rgb(226, 226, 226);
+                color:#707070;
+
+                li {
+                    font-weight: 500;
+                    font-family: 'MullerMedium';
+                    font-size: 16px;
+                }
+
+                hr {
+                    margin-top: -2px;
+                    margin-bottom: 1px;
+                    width: 91%;
+                    margin-left: 35px;
+                    opacity: .4;
+                }
+
+                label {
+                    position:relative;
+                    display:block;
+                    margin: 0;
+                    padding:0 18px 0 40px;
+                    line-height:3em;
+                    background: rgb(226, 226, 226);
+                    cursor:pointer;
+
+                    &:after {
+                        content: "+";
+                        position:absolute;
+                        display:block;
+                        top:0%;
+                        font-weight: 600;
+                        font-size: 21px;
+                        right: 8%;
+                        width:0;
+                        height:0;
+                    }
+
+                    // &:hover {
+                    //     background: rgba(0, 0, 0, .3);
+                    // }
+                }
+
+                input:checked ~ label{
+                    background: rgba(0, 0, 0, .3);
+                }
+
+                input[type="checkbox"]{
+                    color: black;
+                }
+
+                input {
+                    display: none;
+                }
+
+                input:checked ~ ul.sitemap-itemDropdown{
+                    max-height:800px;
+                    transition:max-height 0.5s ease-in;
+                  }
+
+                  ul.sitemap-itemDropdown{
+                    max-height:0;
+                    padding:0;
+                    overflow:hidden;
+                    list-style-type:none;
+                    background:#ECECEC;
+                    box-shadow:0 0 1px rgba(0,0,0,.3);
+                    transition:max-height 0.5s ease-out;
+                    min-width:100%;
+
+                    li {
+                        padding: 0% 12%;
+                        width: 100%;
+                        margin: 0;
+
+                        a {
+                            display:block;
+                            padding:12px 12px 12px 0px;
+                            color:#707070;
+                            text-decoration:none;
+                            box-shadow:0 -1px rgba(0,0,0,.5) inset;
+                            transition: background-color .3s;
+                            white-space:nowrap;
+                        }
+
+                        // &:hover {
+                        //     background: rgba(0, 0, 0, .3);
+                        // }
+                    }
+                  }
+            }
+        }
+    }
+}
+
+
+//Styles for Small-Medium Sized Tablets
+@media (min-width: 480px) and (max-width: 800px) {
+    .quicklaunch-toggle {
+        display: none;
+    }
+
+    #mainHolder {
+        #mamaBear {
+            .navbar-expand-lg {
+                height: 90px;
+
+                .navbar-brand {
+                    img {
+                        width: 215px;
+                        top: 12%;
+                        left: 35%;
+                    }
+                }
+            }
+
+            a {
+                text-decoration: none;
+
+                .mobile-join-button {
+                    display: block;
+                    width: 100%;
+                    border: 0;
+                    height: 62px;
+                    font-size: 17px;
+                    color: white;
+                    top: 100%;
+                    background-color: #0095d3;
+                    border-radius: 0;
+                    font-family: 'Muller';
+                    font-weight: 700;
+                    cursor: pointer;
+                }
+            }
+
+            #mamaBear-banner {
+                height: 25vh;
+                background-size: cover;
+                background-position: 0;
+
+                h1 {
+                    display: none;
+                }
+
+                a {
+                    display: none;
+                }
+
+                #banner-overlay {
+                    display: none;
+                }
+            }
+
+            #wrapper {
+                #overview {
+                    padding: 40px 25px;
+
+                    .col-sm-7 {
+                        h2 {
+                            font-size: 25px;
+                            color: #AB40FA;
+                        }
+
+                        p.program-description {
+                            margin: initial;
+                            padding-left: 0;
+                            font-family: 'Muller';
+                            width: 100%;
+                            font-size: 15px;
+                        }
+
+                        h3 {
+                            font-size: 18px;
+                            margin-top: 6%;
+                        }
+
+                        p {
+                            margin-top: 3%;
+                            font-size: 15px;
+                            width: 100%;
+                            font-family: 'Muller';
+                        }
+
+                        ul {
+                            li {
+                                font-size: 15px;
+
+                                span {
+                                    color: #AB40FA;
+                                }
+                            }
+                        }
+                    }
+
+                    .col-sm-5 {
+                        img {
+                            display: block;
+                            width: 100%;
+                        }
+
+                        a {
+                            button.join-button {
+                                width: 90%;
+                                margin: 7% 0 0 5%;
+                                padding: 21px;
+                            }
+                        }
+                    }
+                }
+
+                #phases {
+                    display: none;
+                }
+
+                #mentor {
+                    padding: 25px 40px;
+
+                    .col-sm-6 {
+                        h2 {
+                            font-size: 19px;
+                            color: #AB40FA;
+                            font-family: 'MullerMedium';
+                            font-weight: 700;
+                            text-align: center;
+                        }
+
+                        p {
+                            font-size: 12px;
+                            width: 100%;
+                            margin-top: 4%;
+                            font-family: 'Muller';
+                        }
+
+                        ul {
+                            padding-left: 6%;
+
+                            li {
+                                font-size: 12px;
+                                font-family: 'Muller';
+                            }
+                        }
+
+                        a {
+                            display: block;
+
+                            h4 {
+                                font-size: 14px;
+                            }
+                        }
+
+                        img {
+                            display: block;
+                            width: 100%;
+                        }
+                    }
+                }
+
+                #resources {
+                    padding: 35px 30px;
+
+                    h2 {
+                        font-size: 25px;
+                        color: #AB40FA;
+                        margin-bottom: 25px;
+                        text-align: center;
+                    }
+
+                    .site-link {
+                        margin-bottom: 12%;
+
+                        h4 {
+                            font-size: 16px;
+                        }
+
+                        p {
+                            font-size: 14px;
+                        }
+
+                        hr {
+                            margin: 50px 0 2% 0;
+                            width: 90%;
+                        }
+
+                        a {
+                            font-size: 14px;
+                        }
+
+                        hr.checklist-line {
+                            margin: 28px 0 2% 0;
+                        }
+                    }
+
+                }
+
+                hr.section-line {
+                    display: none;
+                }
+
+                #contact {
+                    padding: 20px 40px 40px 40px;
+
+                    .col-sm-6 {
+                        h2 {
+                            font-size: 19px;
+                            text-align: center;
+                            font-family: 'MullerMedium';
+                            font-weight: 700;
+                        }
+
+                        .row {
+                            .col-sm-6 {
+                                width: 51%;
+
+                                ul {
+                                    li {
+                                        font-size: 15px;
+                                    }
+                                }
+                            }
+
+                            .col-sm-6:nth-of-type(even) {
+                                width: 49%;
+                            }
+                        }
+
+                        h4 {
+                            font-size: 16px;
+                            width: 100%;
+                        }
+
+                        img {
+                            display: block;
+                            padding-top: 7%;
+                        }
+                    }
+                }
+            }
+
+            #footer-sitemap {
+                display: none;
+            }
+
+            #mobile-sitemap {
+                display: block;
+                top: 0;
+                width: 100%;
+                height: auto;
+                margin: 0;
+                padding: 0;
+                background:rgb(226, 226, 226);
+                color:#707070;
+
+                li {
+                    font-weight: 500;
+                    font-family: 'MullerMedium';
+                    font-size: 16px;
+                }
+
+                hr {
+                    margin-top: -2px;
+                    margin-bottom: 1px;
+                    width: 91%;
+                    margin-left: 35px;
+                    opacity: .4;
+                }
+
+                label {
+                    position:relative;
+                    display:block;
+                    margin: 0;
+                    padding:0 18px 0 40px;
+                    line-height:3em;
+                    background: rgb(226, 226, 226);
+                    cursor:pointer;
+
+                    &:after {
+                        content: "+";
+                        position:absolute;
+                        display:block;
+                        top:0%;
+                        font-weight: 600;
+                        font-size: 21px;
+                        right: 8%;
+                        width:0;
+                        height:0;
+                    }
+
+                    // &:hover {
+                    //     background: rgba(0, 0, 0, .3);
+                    // }
+                }
+
+                input:checked ~ label{
+                    background: rgba(0, 0, 0, .3);
+                }
+
+                input[type="checkbox"]{
+                    color: black;
+                }
+
+                input {
+                    display: none;
+                }
+
+                input:checked ~ ul.sitemap-itemDropdown{
+                    max-height:800px;
+                    transition:max-height 0.5s ease-in;
+                  }
+
+                  ul.sitemap-itemDropdown{
+                    max-height:0;
+                    padding:0;
+                    overflow:hidden;
+                    list-style-type:none;
+                    background:#ECECEC;
+                    box-shadow:0 0 1px rgba(0,0,0,.3);
+                    transition:max-height 0.5s ease-out;
+                    min-width:100%;
+
+                    li {
+                        padding: 0% 12%;
+                        width: 100%;
+                        margin: 0;
+
+                        a {
+                            display:block;
+                            padding:12px 12px 12px 0px;
+                            color:#707070;
+                            text-decoration:none;
+                            box-shadow:0 -1px rgba(0,0,0,.5) inset;
+                            transition: background-color .3s;
+                            white-space:nowrap;
+                        }
+
+                        // &:hover {
+                        //     background: rgba(0, 0, 0, .3);
+                        // }
+                    }
+                  }
+            }
+        }
+    }
+}
+
+
+//Styles for Large Tablets and Small Monitors
+@media (min-width: 801px) and (max-width: 1279px) {
+    #mainHolder {
+        #mamaBear {
+            .navbar-expand-lg {
+                
+            }
+
+            a {
+                
+            }
+
+            #mamaBear-banner {
+               h1 {
+                   width: 45%;
+               }
+            }
+
+            #wrapper {
+                #overview {
+                    
+                }
+
+                #phases {
+                    padding: 0 0 150px 6vw;
+                    
+                    .col-sm-4 {
+                        h2.phase-header {
+                            margin-left: 26%;
+                        }
+
+                        img {
+                            width: 100%;
+                            height: 40vh;
+                        }
+                    }
+
+                    #planning-block {
+
+                        h2 {
+                            left: 23%;
+                        }
+
+                        hr {
+                            left: 22%;
+                        }
+
+                        p {
+                            width: 79%;
+                        }
+
+                        .overlay {
+                            width: 83%;
+                        }
+                    }
+                    
+                }
+
+                #mentor {
+                    
+                }
+
+                #resources {
+
+                    .site-link {
+                        hr.checklist-line {
+                            margin: 44px 0 2% 0;
+                        }
+                    }
+                }
+
+                #contact {
+                    
+            }
+
+            
+        }
+    }
+}
+}
+
+
+@media (min-width:1280px) and (max-width: 1601px) {
+    #mainHolder {
+        #mamaBear {
+            .navbar-expand-lg {
+                
+            }
+
+            a {
+                
+            }
+
+            #mamaBear-banner {
+               h1 {
+                   width: 45%;
+               }
+            }
+
+            #wrapper {
+                #overview {
+                    
+                }
+
+                #phases {
+                    padding: 0 0 150px 6vw;
+                    
+                    .col-sm-4 {
+                        h2.phase-header {
+                            margin-left: 26%;
+                        }
+
+                        img {
+                            width: 100%;
+                            height: 40vh;
+                        }
+                    }
+
+                    #planning-block {
+
+                        h2 {
+                            left: 23%;
+                        }
+
+                        hr {
+                            left: 22%;
+                        }
+
+                        p {
+                            width: 79%;
+                        }
+
+                        .overlay {
+                            width: 83%;
+                        }
+                    }
+                    
+                }
+
+                #mentor {
+                    
+                }
+
+                #resources {
+
+                    .site-link {
+                        hr.checklist-line {
+                            margin: 44px 0 2% 0;
+                        }
+                    }
+                }
+
+                #contact {
+                    
+            }
+
+            
+        }
+    }
+}
+}
