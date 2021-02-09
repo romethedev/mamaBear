@@ -1,0 +1,1351 @@
+.global-maincontent,
+.article.article-body,
+.article-content {
+  margin: 0;
+  padding: 0;
+}
+
+#globalQuickLaunchMenu,
+.global-breadcrumbs-wrapper.ms-dialogHidden,
+.global-footer-wrapper.ms-dialogHidden {
+  display: none;
+}
+
+.ms-rtestate-field > p {
+  display: none;
+}
+
+.global-breadcrumbs-current {
+  display: none;
+  margin: 0;
+}
+
+.ms-webpartzone-cell {
+  margin: 0;
+}
+
+#s4-bodyContainer {
+  overflow: hidden;
+}
+
+#s4-bodyContainer:after {
+  content: "";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+
+.global-body-wrapper {
+  width: 100%;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url("./fonts/Muller.ttf");
+}
+
+@font-face {
+  font-family: 'MullerBold';
+  src: url("./fonts/MullerBold.ttf");
+}
+
+@font-face {
+  font-family: 'MullerExtraBold';
+  src: url("./fonts/MullerExtraBold.otf");
+}
+
+@font-face {
+  font-family: 'MullerMedium';
+  src: url("./fonts/MullerMedium.otf");
+}
+
+@font-face {
+  font-family: 'MullerLight';
+  src: url(./fonts/MullerLight.otf);
+}
+
+@font-face {
+  font-family: 'MullerThin';
+  src: url(./fonts/MullerThin.otf);
+}
+
+#mainHolder #mamaBear {
+  overflow: hidden;
+}
+
+#mainHolder #mamaBear .wrap {
+  margin-left: 140px;
+  margin-right: 140px;
+}
+
+#mainHolder #mamaBear .clearfix:before {
+  content: "";
+  display: table;
+}
+
+#mainHolder #mamaBear .site-header {
+  padding: 2em 0 1.5em;
+}
+
+#mainHolder #mamaBear .site-header .wrap .site-brand {
+  width: 225px;
+}
+
+#mainHolder #mamaBear .site-header .wrap .nav-item {
+  color: #707070;
+  float: right;
+  margin-top: 20px;
+  padding-right: 8%;
+  font-size: 1.15vw;
+  font-family: 'MullerMedium';
+  text-transform: uppercase;
+  position: relative;
+  display: block;
+  cursor: pointer;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#mainHolder #mamaBear .site-header .wrap .nav-item:hover {
+  color: #AB40FA;
+}
+
+#mainHolder #mamaBear .site-header .wrap .nav-toggle {
+  padding-right: 40px;
+}
+
+#mainHolder #mamaBear .site-header .wrap .nav-toggle span {
+  background: #bdbdbd;
+  display: block;
+  height: 4px;
+  position: absolute;
+  right: 0;
+  width: 30px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+#mainHolder #mamaBear .site-header .wrap .nav-toggle span:first-child {
+  top: 2px;
+}
+
+#mainHolder #mamaBear .site-header .wrap .nav-toggle span:nth-child(2) {
+  top: 10px;
+}
+
+#mainHolder #mamaBear .site-header .wrap .nav-toggle span:nth-child(3) {
+  top: 18px;
+}
+
+#mainHolder #mamaBear .site-header .wrap .no-bullets li, #mainHolder #mamaBear .site-header .wrap .no-bullets ol, #mainHolder #mamaBear .site-header .wrap .no-bullets ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#mainHolder #mamaBear .site-header .wrap .site-navigation {
+  width: 100%;
+  position: absolute;
+  left: 0;
+}
+
+#mainHolder #mamaBear .site-header .wrap .site-navigation #nav-menu {
+  background-color: #707070;
+}
+
+#mainHolder #mamaBear .site-header .wrap .site-navigation #nav-menu .menu-item {
+  display: inline;
+}
+
+#mainHolder #mamaBear .navbar-expand-lg {
+  background-color: #fff;
+  height: 125px;
+}
+
+#mainHolder #mamaBear .navbar-expand-lg .navbar-brand {
+  color: #747474;
+  font-family: 'Muller';
+  margin: 5px 0 0 62px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 28px;
+}
+
+#mainHolder #mamaBear .navbar-expand-lg .navbar-brand img {
+  width: 325px;
+  position: absolute;
+  top: 12%;
+  left: 8%;
+}
+
+#mainHolder #mamaBear .navbar-expand-lg .navbar-nav {
+  opacity: 1;
+  width: 40%;
+  right: 0;
+  -webkit-transition: all .5s ease-in;
+  transition: all .5s ease-in;
+  position: absolute;
+}
+
+#mainHolder #mamaBear .navbar-expand-lg .navbar-nav .nav-link {
+  font-family: 'MullerMedium';
+  font-size: 1.15vw;
+  font-weight: 500;
+  color: #707070;
+  margin-right: 12%;
+  cursor: pointer;
+}
+
+#mainHolder #mamaBear .navbar-expand-lg .navbar-nav #mentor-link {
+  -webkit-transition: 1s;
+  /* ...and now for the proper property */
+  transition: 1s;
+}
+
+#mainHolder #mamaBear .navbar-expand-lg .navbar-nav #mentor-link:hover {
+  color: #AB40FA;
+}
+
+#mainHolder #mamaBear .navbar-expand-lg .navbar-nav #resource-link {
+  -webkit-transition: 1s;
+  /* ...and now for the proper property */
+  transition: 1s;
+}
+
+#mainHolder #mamaBear .navbar-expand-lg .navbar-nav #resource-link:hover {
+  color: #AB40FA;
+}
+
+#mainHolder #mamaBear .navbar-expand-lg .navbar-nav #contact-link {
+  -webkit-transition: 1s;
+  /* ...and now for the proper property */
+  transition: 1s;
+  width: 50%;
+}
+
+#mainHolder #mamaBear .navbar-expand-lg .navbar-nav #contact-link .fa {
+  margin-right: 8px;
+}
+
+#mainHolder #mamaBear .navbar-expand-lg .navbar-nav #contact-link:hover {
+  color: #AB40FA;
+}
+
+#mainHolder #mamaBear .mobile-join-button {
+  display: none;
+}
+
+#mainHolder #mamaBear #mamaBear-banner {
+  height: 600px;
+  background-image: url("./images/mama-banner.jpg");
+  background-size: cover;
+  position: relative;
+  background-position: 0 -60px;
+  background-repeat: no-repeat;
+}
+
+#mainHolder #mamaBear #mamaBear-banner h1 {
+  color: white;
+  position: absolute;
+  z-index: 105;
+  width: 33%;
+  top: 32%;
+  left: 6%;
+  font-size: 35px;
+  font-family: 'Muller';
+  font-weight: 700;
+}
+
+#mainHolder #mamaBear #mamaBear-banner button.join-button {
+  position: absolute;
+  z-index: 105;
+  width: 16%;
+  border-radius: 9px;
+  padding: 15px 0px;
+  color: #AB40FA;
+  font-family: 'Muller';
+  font-weight: 700;
+  font-size: 25px;
+  background-color: white;
+  border: 2px solid #AB40FA;
+  top: 62%;
+  left: 6%;
+  cursor: pointer;
+}
+
+#mainHolder #mamaBear #mamaBear-banner button.join-button:hover {
+  color: white;
+}
+
+#mainHolder #mamaBear #mamaBear-banner #banner-overlay {
+  background-color: #6C07B7;
+  position: absolute;
+  z-index: 100;
+  height: 100%;
+  width: 100%;
+  opacity: .45;
+  top: 0;
+}
+
+#mainHolder #mamaBear #wrapper #overview {
+  padding: 150px 150px;
+}
+
+#mainHolder #mamaBear #wrapper #overview .col-sm-7 h2 {
+  color: #6C07B7;
+  font-family: 'Muller';
+  font-weight: 700;
+  font-size: 35px;
+}
+
+#mainHolder #mamaBear #wrapper #overview .col-sm-7 p.program-description {
+  margin: 4% 0 8% 0;
+  width: 77%;
+  font-family: 'MullerLight';
+  font-style: italic;
+  font-size: 22px;
+  color: #707070;
+}
+
+#mainHolder #mamaBear #wrapper #overview .col-sm-7 h3 {
+  color: #6C07B7;
+  font-family: 'MullerMedium';
+  font-size: 28px;
+}
+
+#mainHolder #mamaBear #wrapper #overview .col-sm-7 p {
+  margin-top: 3%;
+  font-size: 24px;
+  width: 77%;
+  font-family: 'Muller';
+  color: #707070;
+}
+
+#mainHolder #mamaBear #wrapper #overview .col-sm-7 ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 5%;
+}
+
+#mainHolder #mamaBear #wrapper #overview .col-sm-7 ul li {
+  font-family: 'MullerLight';
+  color: #707070;
+  font-size: 24px;
+}
+
+#mainHolder #mamaBear #wrapper #overview .col-sm-7 ul li span {
+  font-family: 'MullerBold';
+  color: #707070;
+}
+
+#mainHolder #mamaBear #wrapper #overview .col-sm-5 img {
+  width: 88%;
+}
+
+#mainHolder #mamaBear #wrapper #overview .col-sm-5 button.join-button {
+  border: 0;
+  background-color: #0095D3;
+  color: white;
+  font-family: 'MullerMedium';
+  width: 70%;
+  margin: 7% 0 0 9%;
+  border-radius: 9px;
+  padding: 40px;
+  cursor: pointer;
+}
+
+#mainHolder #mamaBear #wrapper #phases {
+  padding: 0 0 150px 150px;
+}
+
+#mainHolder #mamaBear #wrapper #phases .col-sm-4 {
+  position: relative;
+}
+
+#mainHolder #mamaBear #wrapper #phases .col-sm-4 h2.phase-header {
+  color: #6C07B7;
+  font-family: 'Muller';
+  font-weight: 700;
+  position: initial;
+  font-size: 32px;
+  margin: 0 0 2.5% 26%;
+}
+
+#mainHolder #mamaBear #wrapper #phases .col-sm-4 #planning-block, #mainHolder #mamaBear #wrapper #phases .col-sm-4 #maternity-block, #mainHolder #mamaBear #wrapper #phases .col-sm-4 #return-block {
+  position: relative;
+  width: 75%;
+}
+
+#mainHolder #mamaBear #wrapper #phases .col-sm-4 #planning-block:hover h2, #mainHolder #mamaBear #wrapper #phases .col-sm-4 #maternity-block:hover h2, #mainHolder #mamaBear #wrapper #phases .col-sm-4 #return-block:hover h2 {
+  opacity: 1;
+}
+
+#mainHolder #mamaBear #wrapper #phases .col-sm-4 #planning-block:hover hr, #mainHolder #mamaBear #wrapper #phases .col-sm-4 #maternity-block:hover hr, #mainHolder #mamaBear #wrapper #phases .col-sm-4 #return-block:hover hr {
+  opacity: 1;
+}
+
+#mainHolder #mamaBear #wrapper #phases .col-sm-4 #planning-block:hover p, #mainHolder #mamaBear #wrapper #phases .col-sm-4 #maternity-block:hover p, #mainHolder #mamaBear #wrapper #phases .col-sm-4 #return-block:hover p {
+  opacity: 1;
+}
+
+#mainHolder #mamaBear #wrapper #phases .col-sm-4 #planning-block:hover .overlay, #mainHolder #mamaBear #wrapper #phases .col-sm-4 #maternity-block:hover .overlay, #mainHolder #mamaBear #wrapper #phases .col-sm-4 #return-block:hover .overlay {
+  opacity: .75;
+}
+
+#mainHolder #mamaBear #wrapper #phases .col-sm-4 #planning-block h2, #mainHolder #mamaBear #wrapper #phases .col-sm-4 #maternity-block h2, #mainHolder #mamaBear #wrapper #phases .col-sm-4 #return-block h2 {
+  position: absolute;
+  font-size: 32px;
+  top: 0;
+  color: white;
+  font-family: 'MullerMedium';
+  top: 6%;
+  left: 30%;
+  z-index: 100;
+  opacity: 0;
+  -webkit-transition: 1.25s;
+  transition: 1.25s;
+}
+
+#mainHolder #mamaBear #wrapper #phases .col-sm-4 #planning-block hr, #mainHolder #mamaBear #wrapper #phases .col-sm-4 #maternity-block hr, #mainHolder #mamaBear #wrapper #phases .col-sm-4 #return-block hr {
+  top: 15%;
+  left: 27%;
+  width: 45%;
+  position: absolute;
+  border: 1px solid white;
+  opacity: 0;
+  z-index: 100;
+  -webkit-transition: 1.25s;
+  transition: 1.25s;
+}
+
+#mainHolder #mamaBear #wrapper #phases .col-sm-4 #planning-block p, #mainHolder #mamaBear #wrapper #phases .col-sm-4 #maternity-block p, #mainHolder #mamaBear #wrapper #phases .col-sm-4 #return-block p {
+  top: 26%;
+  left: 10%;
+  font-size: 1vw;
+  text-align: center;
+  font-family: 'MullerMedium';
+  color: white;
+  position: absolute;
+  width: 80%;
+  opacity: 0;
+  z-index: 100;
+  -webkit-transition: 1.25s;
+  transition: 1.25s;
+}
+
+#mainHolder #mamaBear #wrapper #phases .col-sm-4 #planning-block .overlay, #mainHolder #mamaBear #wrapper #phases .col-sm-4 #maternity-block .overlay, #mainHolder #mamaBear #wrapper #phases .col-sm-4 #return-block .overlay {
+  position: absolute;
+  background-color: #6C07B7;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  opacity: 0;
+  -webkit-transition: 1.25s;
+  transition: 1.25s;
+}
+
+#mainHolder #mamaBear #wrapper #phases .col-sm-4 #maternity-block h2 {
+  left: 20%;
+}
+
+#mainHolder #mamaBear #wrapper #phases .col-sm-4 #return-block h2 {
+  left: 16%;
+}
+
+#mainHolder #mamaBear #wrapper #phases .col-sm-4 img {
+  width: 100%;
+  height: 38vh;
+}
+
+#mainHolder #mamaBear #wrapper #mentor {
+  padding: 100px 0 100px 150px;
+  background-color: rgba(172, 64, 250, 0.089);
+}
+
+#mainHolder #mamaBear #wrapper #mentor .col-sm-6 h2 {
+  font-size: 35px;
+  color: #6C07B7;
+  font-family: 'Muller';
+  font-weight: 700;
+}
+
+#mainHolder #mamaBear #wrapper #mentor .col-sm-6 p {
+  color: #707070;
+  font-family: 'Muller';
+  font-size: 24px;
+  width: 79%;
+  margin-top: 4%;
+}
+
+#mainHolder #mamaBear #wrapper #mentor .col-sm-6 ul {
+  margin-top: 4%;
+  padding-left: 3%;
+}
+
+#mainHolder #mamaBear #wrapper #mentor .col-sm-6 ul li {
+  color: #707070;
+  font-family: 'Muller';
+  font-size: 24px;
+}
+
+#mainHolder #mamaBear #wrapper #mentor .col-sm-6 a {
+  display: inline-block;
+}
+
+#mainHolder #mamaBear #wrapper #mentor .col-sm-6 a h4 {
+  margin-top: 8%;
+  font-size: 24px;
+  font-family: 'Muller';
+  color: #0095D3;
+}
+
+#mainHolder #mamaBear #wrapper #mentor .col-sm-6 img {
+  width: 75%;
+}
+
+#mainHolder #mamaBear #wrapper #resources {
+  padding: 100px 100px 50px 100px;
+}
+
+#mainHolder #mamaBear #wrapper #resources h2 {
+  font-size: 35px;
+  color: #6C07B7;
+  font-family: 'Muller';
+  font-weight: 700;
+  margin-bottom: 75px;
+}
+
+#mainHolder #mamaBear #wrapper #resources .site-link {
+  margin-bottom: 9%;
+}
+
+#mainHolder #mamaBear #wrapper #resources .site-link h4 {
+  color: #707070;
+  font-family: 'Muller';
+  font-weight: 600;
+  font-size: 21px;
+}
+
+#mainHolder #mamaBear #wrapper #resources .site-link p {
+  font-size: 21px;
+  color: #707070;
+  font-family: 'Muller';
+}
+
+#mainHolder #mamaBear #wrapper #resources .site-link hr {
+  border: 2px solid #AB40FA;
+  margin: 77px 0 2% 0;
+  width: 250px;
+}
+
+#mainHolder #mamaBear #wrapper #resources .site-link a {
+  color: #707070;
+  text-decoration: none;
+  margin-right: 20px;
+  font-family: 'Muller';
+  font-weight: 700;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#mainHolder #mamaBear #wrapper #resources .site-link a:hover {
+  color: #AB40FA;
+}
+
+#mainHolder #mamaBear #wrapper hr.section-line {
+  margin: 0 auto;
+  border: 15px solid;
+  width: 90%;
+  color: #AB40FA;
+  opacity: .1;
+}
+
+#mainHolder #mamaBear #wrapper #contact {
+  padding: 50px 0 100px 150px;
+}
+
+#mainHolder #mamaBear #wrapper #contact .col-sm-6 h2 {
+  font-family: 'Muller';
+  font-weight: 700;
+  color: #AB40FA;
+  font-size: 35px;
+  margin-bottom: 1%;
+}
+
+#mainHolder #mamaBear #wrapper #contact .col-sm-6 h3 {
+  font-size: 22px;
+  font-family: 'Muller';
+  margin-bottom: 7%;
+  color: #707070;
+}
+
+#mainHolder #mamaBear #wrapper #contact .col-sm-6 ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 12%;
+}
+
+#mainHolder #mamaBear #wrapper #contact .col-sm-6 ul li {
+  font-family: 'Muller';
+  color: #707070;
+  font-size: 21px;
+  margin-bottom: 3%;
+}
+
+#mainHolder #mamaBear #wrapper #contact .col-sm-6 ul li a {
+  color: #0095D3;
+}
+
+#mainHolder #mamaBear #wrapper #contact .col-sm-6 ul li.region {
+  font-family: 'Muller';
+  font-weight: 600;
+}
+
+#mainHolder #mamaBear #wrapper #contact .col-sm-6 img {
+  width: 75%;
+}
+
+#mainHolder #mamaBear #wrapper #contact .col-sm-6 h4 {
+  font-size: 24px;
+  font-family: 'MullerLight';
+  font-weight: 600;
+  margin-top: 3%;
+  width: 78%;
+  color: #707070;
+}
+
+#mainHolder #mamaBear #wrapper #contact .col-sm-6 h4 a {
+  color: #0095D3;
+}
+
+#mainHolder #mamaBear #footer-sitemap {
+  background-color: #e4e4e4;
+  height: auto;
+  padding: 40px;
+  position: relative;
+}
+
+#mainHolder #mamaBear #footer-sitemap img {
+  position: absolute;
+  width: 285px;
+  top: 15%;
+  opacity: .35;
+}
+
+#mainHolder #mamaBear #footer-sitemap #footer-sitemap-content {
+  margin: 0 0 0 22%;
+  width: 78%;
+  height: 400px;
+}
+
+#mainHolder #mamaBear #footer-sitemap #footer-sitemap-content .sitemap-column {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: 22%;
+  margin-right: 2%;
+}
+
+#mainHolder #mamaBear #footer-sitemap #footer-sitemap-content .sitemap-column h5 {
+  font-size: 14px;
+  font-weight: bolder;
+  margin-bottom: .8em;
+  color: #575757;
+  font-family: 'MullerBold';
+}
+
+#mainHolder #mamaBear #footer-sitemap #footer-sitemap-content .sitemap-column h5 a {
+  color: #575757;
+  text-decoration: none;
+}
+
+#mainHolder #mamaBear #footer-sitemap #footer-sitemap-content .sitemap-column ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 11px;
+  font-family: 'MullerMedium';
+}
+
+#mainHolder #mamaBear #footer-sitemap #footer-sitemap-content .sitemap-column ul li.current {
+  font-family: 'MullerExtraBold';
+  color: #000000;
+}
+
+#mainHolder #mamaBear #footer-sitemap #footer-sitemap-content .sitemap-column ul li.current a {
+  color: #000000;
+}
+
+#mainHolder #mamaBear #footer-sitemap #footer-sitemap-content .sitemap-column ul li {
+  margin-bottom: 1em;
+}
+
+#mainHolder #mamaBear #footer-sitemap #footer-sitemap-content .sitemap-column ul li a {
+  color: #777777;
+  text-decoration: none;
+}
+
+#mainHolder #mamaBear #footer-sitemap #footer-sitemap-content .sitemap-column ul li a:hover {
+  color: #AB40FA;
+}
+
+#mainHolder #mamaBear #mobile-sitemap {
+  display: none;
+}
+
+/* Sweep To Right */
+.hvr-sweep-to-right {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.hvr-sweep-to-right:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #0095D3;
+  border-radius: 6px;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
+  color: white;
+}
+
+.hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+/* Shrink */
+.hvr-shrink {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+}
+
+.hvr-shrink:hover, .hvr-shrink:focus, .hvr-shrink:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+@media (max-width: 479px) {
+  .quicklaunch-toggle {
+    display: none;
+  }
+  #mainHolder #mamaBear .navbar-expand-lg {
+    height: 90px;
+  }
+  #mainHolder #mamaBear .navbar-expand-lg .navbar-brand img {
+    width: 215px;
+    top: 12%;
+    left: 21%;
+  }
+  #mainHolder #mamaBear a {
+    text-decoration: none;
+  }
+  #mainHolder #mamaBear a .mobile-join-button {
+    display: block;
+    width: 100%;
+    border: 0;
+    height: 62px;
+    font-size: 17px;
+    color: white;
+    top: 100%;
+    background-color: #0095d3;
+    border-radius: 0;
+    font-family: 'Muller';
+    font-weight: 700;
+    cursor: pointer;
+  }
+  #mainHolder #mamaBear #mamaBear-banner {
+    height: 155px;
+    background-size: cover;
+    background-position: 0;
+  }
+  #mainHolder #mamaBear #mamaBear-banner h1 {
+    display: none;
+  }
+  #mainHolder #mamaBear #mamaBear-banner a {
+    display: none;
+  }
+  #mainHolder #mamaBear #mamaBear-banner #banner-overlay {
+    display: none;
+  }
+  #mainHolder #mamaBear #wrapper #overview {
+    padding: 40px 25px;
+  }
+  #mainHolder #mamaBear #wrapper #overview .col-sm-7 h2 {
+    font-size: 25px;
+    color: #AB40FA;
+  }
+  #mainHolder #mamaBear #wrapper #overview .col-sm-7 p.program-description {
+    margin: initial;
+    padding-left: 0;
+    font-family: 'Muller';
+    width: 100%;
+    font-size: 15px;
+  }
+  #mainHolder #mamaBear #wrapper #overview .col-sm-7 h3 {
+    font-size: 18px;
+    margin-top: 6%;
+  }
+  #mainHolder #mamaBear #wrapper #overview .col-sm-7 p {
+    margin-top: 3%;
+    font-size: 15px;
+    width: 100%;
+    font-family: 'Muller';
+  }
+  #mainHolder #mamaBear #wrapper #overview .col-sm-7 ul li {
+    font-size: 15px;
+  }
+  #mainHolder #mamaBear #wrapper #overview .col-sm-7 ul li span {
+    color: #AB40FA;
+  }
+  #mainHolder #mamaBear #wrapper #overview .col-sm-5 img {
+    display: none;
+  }
+  #mainHolder #mamaBear #wrapper #overview .col-sm-5 a button.join-button {
+    width: 90%;
+    margin: 3% 0 0 5%;
+    padding: 21px;
+  }
+  #mainHolder #mamaBear #wrapper #phases {
+    display: none;
+  }
+  #mainHolder #mamaBear #wrapper #mentor {
+    padding: 25px 40px;
+  }
+  #mainHolder #mamaBear #wrapper #mentor .col-sm-6 h2 {
+    font-size: 19px;
+    color: #AB40FA;
+    font-family: 'MullerMedium';
+    font-weight: 700;
+    text-align: center;
+  }
+  #mainHolder #mamaBear #wrapper #mentor .col-sm-6 p {
+    font-size: 12px;
+    width: 100%;
+    margin-top: 4%;
+    font-family: 'Muller';
+  }
+  #mainHolder #mamaBear #wrapper #mentor .col-sm-6 ul {
+    padding-left: 6%;
+  }
+  #mainHolder #mamaBear #wrapper #mentor .col-sm-6 ul li {
+    font-size: 12px;
+    font-family: 'Muller';
+  }
+  #mainHolder #mamaBear #wrapper #mentor .col-sm-6 a {
+    display: none;
+  }
+  #mainHolder #mamaBear #wrapper #mentor .col-sm-6 img {
+    display: none;
+  }
+  #mainHolder #mamaBear #wrapper #resources {
+    padding: 35px 30px;
+  }
+  #mainHolder #mamaBear #wrapper #resources h2 {
+    font-size: 25px;
+    color: #AB40FA;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  #mainHolder #mamaBear #wrapper #resources .site-link {
+    margin-bottom: 12%;
+  }
+  #mainHolder #mamaBear #wrapper #resources .site-link h4 {
+    font-size: 18px;
+  }
+  #mainHolder #mamaBear #wrapper #resources .site-link p {
+    font-size: 15px;
+  }
+  #mainHolder #mamaBear #wrapper #resources .site-link hr {
+    margin: 50px 0 2% 0;
+  }
+  #mainHolder #mamaBear #wrapper #resources .site-link a {
+    font-size: 14px;
+  }
+  #mainHolder #mamaBear #wrapper hr.section-line {
+    display: none;
+  }
+  #mainHolder #mamaBear #wrapper #contact {
+    padding: 20px 40px 40px 40px;
+  }
+  #mainHolder #mamaBear #wrapper #contact .col-sm-6 h2 {
+    font-size: 19px;
+    text-align: center;
+    font-family: 'MullerMedium';
+    font-weight: 700;
+  }
+  #mainHolder #mamaBear #wrapper #contact .col-sm-6 .row .col-sm-6 {
+    width: 51%;
+  }
+  #mainHolder #mamaBear #wrapper #contact .col-sm-6 .row .col-sm-6 ul li {
+    font-size: 15px;
+  }
+  #mainHolder #mamaBear #wrapper #contact .col-sm-6 .row .col-sm-6:nth-of-type(even) {
+    width: 49%;
+  }
+  #mainHolder #mamaBear #wrapper #contact .col-sm-6 h4 {
+    font-size: 16px;
+    width: 100%;
+  }
+  #mainHolder #mamaBear #wrapper #contact .col-sm-6 img {
+    display: none;
+  }
+  #mainHolder #mamaBear #footer-sitemap {
+    display: none;
+  }
+  #mainHolder #mamaBear #mobile-sitemap {
+    display: block;
+    top: 0;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background: #e2e2e2;
+    color: #707070;
+  }
+  #mainHolder #mamaBear #mobile-sitemap li {
+    font-weight: 500;
+    font-family: 'MullerMedium';
+    font-size: 16px;
+  }
+  #mainHolder #mamaBear #mobile-sitemap hr {
+    margin-top: -2px;
+    margin-bottom: 1px;
+    width: 91%;
+    margin-left: 35px;
+    opacity: .4;
+  }
+  #mainHolder #mamaBear #mobile-sitemap label {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0 18px 0 40px;
+    line-height: 3em;
+    background: #e2e2e2;
+    cursor: pointer;
+  }
+  #mainHolder #mamaBear #mobile-sitemap label:after {
+    content: "+";
+    position: absolute;
+    display: block;
+    top: 0%;
+    font-weight: 600;
+    font-size: 21px;
+    right: 8%;
+    width: 0;
+    height: 0;
+  }
+  #mainHolder #mamaBear #mobile-sitemap input:checked ~ label {
+    background: rgba(0, 0, 0, 0.3);
+  }
+  #mainHolder #mamaBear #mobile-sitemap input[type="checkbox"] {
+    color: black;
+  }
+  #mainHolder #mamaBear #mobile-sitemap input {
+    display: none;
+  }
+  #mainHolder #mamaBear #mobile-sitemap input:checked ~ ul.sitemap-itemDropdown {
+    max-height: 800px;
+    -webkit-transition: max-height 0.5s ease-in;
+    transition: max-height 0.5s ease-in;
+  }
+  #mainHolder #mamaBear #mobile-sitemap ul.sitemap-itemDropdown {
+    max-height: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+    background: #ECECEC;
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    -webkit-transition: max-height 0.5s ease-out;
+    transition: max-height 0.5s ease-out;
+    min-width: 100%;
+  }
+  #mainHolder #mamaBear #mobile-sitemap ul.sitemap-itemDropdown li {
+    padding: 0% 12%;
+    width: 100%;
+    margin: 0;
+  }
+  #mainHolder #mamaBear #mobile-sitemap ul.sitemap-itemDropdown li a {
+    display: block;
+    padding: 12px 12px 12px 0px;
+    color: #707070;
+    text-decoration: none;
+    -webkit-box-shadow: 0 -1px rgba(0, 0, 0, 0.5) inset;
+            box-shadow: 0 -1px rgba(0, 0, 0, 0.5) inset;
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    white-space: nowrap;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 800px) {
+  .quicklaunch-toggle {
+    display: none;
+  }
+  #mainHolder #mamaBear .navbar-expand-lg {
+    height: 90px;
+  }
+  #mainHolder #mamaBear .navbar-expand-lg .navbar-brand img {
+    width: 215px;
+    top: 12%;
+    left: 35%;
+  }
+  #mainHolder #mamaBear a {
+    text-decoration: none;
+  }
+  #mainHolder #mamaBear a .mobile-join-button {
+    display: block;
+    width: 100%;
+    border: 0;
+    height: 62px;
+    font-size: 17px;
+    color: white;
+    top: 100%;
+    background-color: #0095d3;
+    border-radius: 0;
+    font-family: 'Muller';
+    font-weight: 700;
+    cursor: pointer;
+  }
+  #mainHolder #mamaBear #mamaBear-banner {
+    height: 25vh;
+    background-size: cover;
+    background-position: 0;
+  }
+  #mainHolder #mamaBear #mamaBear-banner h1 {
+    display: none;
+  }
+  #mainHolder #mamaBear #mamaBear-banner a {
+    display: none;
+  }
+  #mainHolder #mamaBear #mamaBear-banner #banner-overlay {
+    display: none;
+  }
+  #mainHolder #mamaBear #wrapper #overview {
+    padding: 40px 25px;
+  }
+  #mainHolder #mamaBear #wrapper #overview .col-sm-7 h2 {
+    font-size: 25px;
+    color: #AB40FA;
+  }
+  #mainHolder #mamaBear #wrapper #overview .col-sm-7 p.program-description {
+    margin: initial;
+    padding-left: 0;
+    font-family: 'Muller';
+    width: 100%;
+    font-size: 15px;
+  }
+  #mainHolder #mamaBear #wrapper #overview .col-sm-7 h3 {
+    font-size: 18px;
+    margin-top: 6%;
+  }
+  #mainHolder #mamaBear #wrapper #overview .col-sm-7 p {
+    margin-top: 3%;
+    font-size: 15px;
+    width: 100%;
+    font-family: 'Muller';
+  }
+  #mainHolder #mamaBear #wrapper #overview .col-sm-7 ul li {
+    font-size: 15px;
+  }
+  #mainHolder #mamaBear #wrapper #overview .col-sm-7 ul li span {
+    color: #AB40FA;
+  }
+  #mainHolder #mamaBear #wrapper #overview .col-sm-5 img {
+    display: block;
+    width: 100%;
+  }
+  #mainHolder #mamaBear #wrapper #overview .col-sm-5 a button.join-button {
+    width: 90%;
+    margin: 7% 0 0 5%;
+    padding: 21px;
+  }
+  #mainHolder #mamaBear #wrapper #phases {
+    display: none;
+  }
+  #mainHolder #mamaBear #wrapper #mentor {
+    padding: 25px 40px;
+  }
+  #mainHolder #mamaBear #wrapper #mentor .col-sm-6 h2 {
+    font-size: 19px;
+    color: #AB40FA;
+    font-family: 'MullerMedium';
+    font-weight: 700;
+    text-align: center;
+  }
+  #mainHolder #mamaBear #wrapper #mentor .col-sm-6 p {
+    font-size: 12px;
+    width: 100%;
+    margin-top: 4%;
+    font-family: 'Muller';
+  }
+  #mainHolder #mamaBear #wrapper #mentor .col-sm-6 ul {
+    padding-left: 6%;
+  }
+  #mainHolder #mamaBear #wrapper #mentor .col-sm-6 ul li {
+    font-size: 12px;
+    font-family: 'Muller';
+  }
+  #mainHolder #mamaBear #wrapper #mentor .col-sm-6 a {
+    display: block;
+  }
+  #mainHolder #mamaBear #wrapper #mentor .col-sm-6 a h4 {
+    font-size: 14px;
+  }
+  #mainHolder #mamaBear #wrapper #mentor .col-sm-6 img {
+    display: block;
+    width: 100%;
+  }
+  #mainHolder #mamaBear #wrapper #resources {
+    padding: 35px 30px;
+  }
+  #mainHolder #mamaBear #wrapper #resources h2 {
+    font-size: 25px;
+    color: #AB40FA;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  #mainHolder #mamaBear #wrapper #resources .site-link {
+    margin-bottom: 12%;
+  }
+  #mainHolder #mamaBear #wrapper #resources .site-link h4 {
+    font-size: 16px;
+  }
+  #mainHolder #mamaBear #wrapper #resources .site-link p {
+    font-size: 14px;
+  }
+  #mainHolder #mamaBear #wrapper #resources .site-link hr {
+    margin: 50px 0 2% 0;
+    width: 90%;
+  }
+  #mainHolder #mamaBear #wrapper #resources .site-link a {
+    font-size: 14px;
+  }
+  #mainHolder #mamaBear #wrapper #resources .site-link hr.checklist-line {
+    margin: 28px 0 2% 0;
+  }
+  #mainHolder #mamaBear #wrapper hr.section-line {
+    display: none;
+  }
+  #mainHolder #mamaBear #wrapper #contact {
+    padding: 20px 40px 40px 40px;
+  }
+  #mainHolder #mamaBear #wrapper #contact .col-sm-6 h2 {
+    font-size: 19px;
+    text-align: center;
+    font-family: 'MullerMedium';
+    font-weight: 700;
+  }
+  #mainHolder #mamaBear #wrapper #contact .col-sm-6 .row .col-sm-6 {
+    width: 51%;
+  }
+  #mainHolder #mamaBear #wrapper #contact .col-sm-6 .row .col-sm-6 ul li {
+    font-size: 15px;
+  }
+  #mainHolder #mamaBear #wrapper #contact .col-sm-6 .row .col-sm-6:nth-of-type(even) {
+    width: 49%;
+  }
+  #mainHolder #mamaBear #wrapper #contact .col-sm-6 h4 {
+    font-size: 16px;
+    width: 100%;
+  }
+  #mainHolder #mamaBear #wrapper #contact .col-sm-6 img {
+    display: block;
+    padding-top: 7%;
+  }
+  #mainHolder #mamaBear #footer-sitemap {
+    display: none;
+  }
+  #mainHolder #mamaBear #mobile-sitemap {
+    display: block;
+    top: 0;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background: #e2e2e2;
+    color: #707070;
+  }
+  #mainHolder #mamaBear #mobile-sitemap li {
+    font-weight: 500;
+    font-family: 'MullerMedium';
+    font-size: 16px;
+  }
+  #mainHolder #mamaBear #mobile-sitemap hr {
+    margin-top: -2px;
+    margin-bottom: 1px;
+    width: 91%;
+    margin-left: 35px;
+    opacity: .4;
+  }
+  #mainHolder #mamaBear #mobile-sitemap label {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0 18px 0 40px;
+    line-height: 3em;
+    background: #e2e2e2;
+    cursor: pointer;
+  }
+  #mainHolder #mamaBear #mobile-sitemap label:after {
+    content: "+";
+    position: absolute;
+    display: block;
+    top: 0%;
+    font-weight: 600;
+    font-size: 21px;
+    right: 8%;
+    width: 0;
+    height: 0;
+  }
+  #mainHolder #mamaBear #mobile-sitemap input:checked ~ label {
+    background: rgba(0, 0, 0, 0.3);
+  }
+  #mainHolder #mamaBear #mobile-sitemap input[type="checkbox"] {
+    color: black;
+  }
+  #mainHolder #mamaBear #mobile-sitemap input {
+    display: none;
+  }
+  #mainHolder #mamaBear #mobile-sitemap input:checked ~ ul.sitemap-itemDropdown {
+    max-height: 800px;
+    -webkit-transition: max-height 0.5s ease-in;
+    transition: max-height 0.5s ease-in;
+  }
+  #mainHolder #mamaBear #mobile-sitemap ul.sitemap-itemDropdown {
+    max-height: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+    background: #ECECEC;
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    -webkit-transition: max-height 0.5s ease-out;
+    transition: max-height 0.5s ease-out;
+    min-width: 100%;
+  }
+  #mainHolder #mamaBear #mobile-sitemap ul.sitemap-itemDropdown li {
+    padding: 0% 12%;
+    width: 100%;
+    margin: 0;
+  }
+  #mainHolder #mamaBear #mobile-sitemap ul.sitemap-itemDropdown li a {
+    display: block;
+    padding: 12px 12px 12px 0px;
+    color: #707070;
+    text-decoration: none;
+    -webkit-box-shadow: 0 -1px rgba(0, 0, 0, 0.5) inset;
+            box-shadow: 0 -1px rgba(0, 0, 0, 0.5) inset;
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    white-space: nowrap;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1279px) {
+  #mainHolder #mamaBear #mamaBear-banner h1 {
+    width: 45%;
+  }
+  #mainHolder #mamaBear #wrapper #phases {
+    padding: 0 0 150px 6vw;
+  }
+  #mainHolder #mamaBear #wrapper #phases .col-sm-4 h2.phase-header {
+    margin-left: 26%;
+  }
+  #mainHolder #mamaBear #wrapper #phases .col-sm-4 img {
+    width: 100%;
+    height: 40vh;
+  }
+  #mainHolder #mamaBear #wrapper #phases #planning-block h2 {
+    left: 23%;
+  }
+  #mainHolder #mamaBear #wrapper #phases #planning-block hr {
+    left: 22%;
+  }
+  #mainHolder #mamaBear #wrapper #phases #planning-block p {
+    width: 79%;
+  }
+  #mainHolder #mamaBear #wrapper #phases #planning-block .overlay {
+    width: 83%;
+  }
+  #mainHolder #mamaBear #wrapper #resources .site-link hr.checklist-line {
+    margin: 44px 0 2% 0;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1601px) {
+  #mainHolder #mamaBear #mamaBear-banner h1 {
+    width: 45%;
+  }
+  #mainHolder #mamaBear #wrapper #phases {
+    padding: 0 0 150px 6vw;
+  }
+  #mainHolder #mamaBear #wrapper #phases .col-sm-4 h2.phase-header {
+    margin-left: 26%;
+  }
+  #mainHolder #mamaBear #wrapper #phases .col-sm-4 img {
+    width: 100%;
+    height: 40vh;
+  }
+  #mainHolder #mamaBear #wrapper #phases #planning-block h2 {
+    left: 23%;
+  }
+  #mainHolder #mamaBear #wrapper #phases #planning-block hr {
+    left: 22%;
+  }
+  #mainHolder #mamaBear #wrapper #phases #planning-block p {
+    width: 79%;
+  }
+  #mainHolder #mamaBear #wrapper #phases #planning-block .overlay {
+    width: 83%;
+  }
+  #mainHolder #mamaBear #wrapper #resources .site-link hr.checklist-line {
+    margin: 44px 0 2% 0;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
